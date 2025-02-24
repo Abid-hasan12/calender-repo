@@ -1,21 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color:rgba(255, 228, 196, 0.342);
+    background-color: rgba(255, 228, 196, 0.342);
     margin: 0;
     padding: 20px;
 }
 
-.header{
+.header {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
 }
-.header img{
-    width: 50%;
+img{
+    width: 30%;
 }
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
@@ -38,7 +37,7 @@ h1 {
 }
 
 .month {
-    background:rgba(236, 176, 176, 0.267);
+    background: rgba(236, 176, 176, 0.267);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -50,7 +49,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     border: 1px solid #aac7a6;
     color: blue;
@@ -63,7 +63,7 @@ th {
 }
 
 td {
-    background-color:white;
+    background-color: white;
 }
 
 td:hover {
@@ -71,7 +71,7 @@ td:hover {
     cursor: pointer;
 }
 
-.creator{
+.creator {
     font-size: 20px;
     font-weight: 900;
     color: blue;
@@ -80,20 +80,16 @@ td:hover {
     align-items: center;
 }
 
-@media  screen and (max-width:776px) {
+@media screen and (max-width:776px) {
     body {
         margin: 5px;
     }
+
     h1 {
         font-size: 30px;
         font-weight: 800;
         color: blue;
     }
-    .header img{
-        width: 30%;
-    }
-    .header{
-        display: flex;
-        flex-direction: column;
-    }
+    
+
 }
