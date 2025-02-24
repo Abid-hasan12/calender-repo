@@ -89,4 +89,11 @@ td:hover {
         font-weight: 800;
         color: blue;
     }
+    .header img{
+        width: 30%;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
 }
